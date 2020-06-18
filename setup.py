@@ -18,6 +18,7 @@ setup(
     author='Viaduct Inc.',
     author_email='bora@viaduct.ai',
     packages=find_packages('pyids')[1:],
+    package_dir={'': 'pyids'}
     license='LICENSE.txt',
     long_description=open('README.md').read(),
     install_requires=base_reqs
