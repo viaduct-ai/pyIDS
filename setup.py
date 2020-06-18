@@ -1,3 +1,4 @@
+from setuptools import find_packages
 from setuptools import setup
 
 def read(fname):
@@ -16,7 +17,7 @@ setup(
     version='0.1.0',
     author='Viaduct Inc.',
     author_email='bora@viaduct.ai',
-    packages=['pyids'],
+    packages=find_packages('pyids'),
     license='LICENSE.txt',
     long_description=open('README.md').read(),
     install_requires=base_reqs
